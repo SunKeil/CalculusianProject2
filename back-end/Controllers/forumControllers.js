@@ -1,6 +1,6 @@
 const ForumModel = require('../Models/forumschema')
 const mongoose = require('mongoose')
-const { route } = require('../routes/forum')
+// const { route } = require('../routes/forum')
 
 //get all forums
 const getForum = async (req,res) =>{
