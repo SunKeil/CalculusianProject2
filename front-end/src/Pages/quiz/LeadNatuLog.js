@@ -5,60 +5,60 @@ import {useState} from "react"
 const LeadNatural = ()=>{
 
     const questionnaturalloga = [
-        {  
-            questionText: '/naturalloga/Q1.png',
-            answerOptions: [
-                {imgAns: '/naturalloga/Q1Answer1.png', isCorrect: false},
-                {imgAns: '/naturalloga/Q1Answer2.png', isCorrect: false},
-                {imgAns: '/naturalloga/Q1CorrectAnswer.png', isCorrect: true},
-                {imgAns: '/naturalloga/Q1Answer3.png', isCorrect: false},
-            ],
-        },
-        {  
-            questionText: '/naturalloga/Q2.png',
-            answerOptions: [
-                {imgAns: '/naturalloga/Q2Answer1.png', isCorrect: false},
-                {imgAns: '/naturalloga/Q2CorrectAnswer.png', isCorrect: true},
-                {imgAns: '/naturalloga/Q2Answer2.png', isCorrect: false},
-                {imgAns: '/naturalloga/Q2Answer3.png', isCorrect: false},
-            ],
-        },
-        {  
-            questionText: '/natural/loga/Q3.png',
-            answerOptions: [
-                {imgAns: '/naturalloga/Q3Answer1.png', isCorrect: false},
-                {imgAns: '/naturalloga/Q3CorrectAnswer.png', isCorrect: true},
-                {imgAns: '/naturalloga/Q3Answer2.png', isCorrect: false},
-                {imgAns: '/naturalloga/Q3Answer3.png', isCorrect: false},
-            ],
-        },
-        {  
-            questionText: '/naturalloga/Q4.png',
-            answerOptions: [
-                {imgAns: '/naturalloga/Q4Answer1.png', isCorrect: false},
-                {imgAns: '/naturalloga/Q4Answer2.png', isCorrect: false},
-                {imgAns: '/naturalloga/Q4Answer3.png', isCorrect: false},
-                {imgAns: '/naturalloga/Q4CorrectAnswer.png', isCorrect: true},
-            ],
-        },
-        {  
-            questionText: '/naturalloga/Q5.png',
-            answerOptions: [
-                {imgAns: '/naturalloga/Q5CorrectAnswer.png', isCorrect: true},
-                {imgAns: '/naturalloga/Q5Answer1.png', isCorrect: false},
-                {imgAns: '/naturalloga/Q5Answer2.png', isCorrect: false},
-                {imgAns: '/naturalloga/Q5Answer3.png', isCorrect: false},
-            ],
-        },
-        {  
-            questionText: '/naturalloga/Q6.png',
-            answerOptions: [
-                {imgAns: '/naturalloga/Q6Answer1.png', isCorrect: false},
-                {imgAns: '/naturalloga/Q6CorrectAnswer.png', isCorrect: true},
-                {imgAns: '/naturalloga/Q6Answer2.png', isCorrect: false},
-                {imgAns: '/naturalloga/Q6Answer3.png', isCorrect: false},
-            ],
-        },
+        // {  
+        //     questionText: '/naturalloga/Q1.png',
+        //     answerOptions: [
+        //         {imgAns: '/naturalloga/Q1Answer1.png', isCorrect: false},
+        //         {imgAns: '/naturalloga/Q1Answer2.png', isCorrect: false},
+        //         {imgAns: '/naturalloga/Q1CorrectAnswer.png', isCorrect: true},
+        //         {imgAns: '/naturalloga/Q1Answer3.png', isCorrect: false},
+        //     ],
+        // },
+        // {  
+        //     questionText: '/naturalloga/Q2.png',
+        //     answerOptions: [
+        //         {imgAns: '/naturalloga/Q2Answer1.png', isCorrect: false},
+        //         {imgAns: '/naturalloga/Q2CorrectAnswer.png', isCorrect: true},
+        //         {imgAns: '/naturalloga/Q2Answer2.png', isCorrect: false},
+        //         {imgAns: '/naturalloga/Q2Answer3.png', isCorrect: false},
+        //     ],
+        // },
+        // {  
+        //     questionText: '/natural/loga/Q3.png',
+        //     answerOptions: [
+        //         {imgAns: '/naturalloga/Q3Answer1.png', isCorrect: false},
+        //         {imgAns: '/naturalloga/Q3CorrectAnswer.png', isCorrect: true},
+        //         {imgAns: '/naturalloga/Q3Answer2.png', isCorrect: false},
+        //         {imgAns: '/naturalloga/Q3Answer3.png', isCorrect: false},
+        //     ],
+        // },
+        // {  
+        //     questionText: '/naturalloga/Q4.png',
+        //     answerOptions: [
+        //         {imgAns: '/naturalloga/Q4Answer1.png', isCorrect: false},
+        //         {imgAns: '/naturalloga/Q4Answer2.png', isCorrect: false},
+        //         {imgAns: '/naturalloga/Q4Answer3.png', isCorrect: false},
+        //         {imgAns: '/naturalloga/Q4CorrectAnswer.png', isCorrect: true},
+        //     ],
+        // },
+        // {  
+        //     questionText: '/naturalloga/Q5.png',
+        //     answerOptions: [
+        //         {imgAns: '/naturalloga/Q5CorrectAnswer.png', isCorrect: true},
+        //         {imgAns: '/naturalloga/Q5Answer1.png', isCorrect: false},
+        //         {imgAns: '/naturalloga/Q5Answer2.png', isCorrect: false},
+        //         {imgAns: '/naturalloga/Q5Answer3.png', isCorrect: false},
+        //     ],
+        // },
+        // {  
+        //     questionText: '/naturalloga/Q6.png',
+        //     answerOptions: [
+        //         {imgAns: '/naturalloga/Q6Answer1.png', isCorrect: false},
+        //         {imgAns: '/naturalloga/Q6CorrectAnswer.png', isCorrect: true},
+        //         {imgAns: '/naturalloga/Q6Answer2.png', isCorrect: false},
+        //         {imgAns: '/naturalloga/Q6Answer3.png', isCorrect: false},
+        //     ],
+        // },
         {  
             questionText: '/naturalloga/Q7.png',
             answerOptions: [
@@ -86,64 +86,64 @@ const LeadNatural = ()=>{
                 {imgAns: '/naturalloga/Q9Answer3.png', isCorrect: false},
             ],
         },
-        {  
-            questionText: '/naturalloga/Q10.png',
-            answerOptions: [
-                {imgAns: 'Q/naturalloga/10Answer1.png', isCorrect: false},
-                {imgAns: 'Q/naturalloga/10Answer2.png', isCorrect: false},
-                {imgAns: 'Q/naturalloga/10Answer3.png', isCorrect: false},
-                {imgAns: 'Q/naturalloga/10CorrectAnswer.png', isCorrect: true},
-            ],
-        },
-        {  
-            questionText: '/naturalloga/Q11.png',
-            answerOptions: [
-                {imgAns: '/shop-items/True.png', isCorrect: false},
-                {imgAns: '/shop-items/Fals.png', isCorrect: true},
-            ],
-        },
-        {  
-            questionText: '/naturalloga/Q12.png',
-            answerOptions: [
-                {imgAns: '/shop-items/True.png', isCorrect: false},
-                {imgAns: '/shop-items/Fals.png', isCorrect: true},
-            ],
-        },
-        {  
-            questionText: '/naturalloga/Q13.png',
-            answerOptions: [
-                {imgAns: '/shop-items/True.png', isCorrect: true},
-                {imgAns: '/shop-items/Fals.png', isCorrect: false},
-            ],
-        },
-        {  
-            questionText: '/naturalloga/Q14.png',
-            answerOptions: [
-                {imgAns: '/shop-items/True.png', isCorrect: true},
-                {imgAns: '/shop-items/Fals.png', isCorrect: false},
-            ],
-        },
-        {  
-            questionText: '/naturalloga/Q15.png',
-            answerOptions: [
-                {imgAns: '/shop-items/True.png', isCorrect: false},
-                {imgAns: '/shop-items/Fals.png', isCorrect: true},
-            ],
-        },
-        {  
-            questionText: '/naturalloga/Q16.png',
-            answerOptions: [
-                {imgAns: '/shop-items/True.png', isCorrect: true},
-                {imgAns: '/shop-items/Fals.png', isCorrect: false},
-            ],
-        },
-        {  
-            questionText: '/naturalloga/Q17.png',
-            answerOptions: [
-                {imgAns: '/shop-items/True.png', isCorrect: false},
-                {imgAns: '/shop-items/Fals.png', isCorrect: true},
-            ],
-        },
+        // {  
+        //     questionText: '/naturalloga/Q10.png',
+        //     answerOptions: [
+        //         {imgAns: '/naturalloga/10Answer1.png', isCorrect: false},
+        //         {imgAns: '/naturalloga/10Answer2.png', isCorrect: false},
+        //         {imgAns: '/naturalloga/10Answer3.png', isCorrect: false},
+        //         {imgAns: '/naturalloga/10CorrectAnswer.png', isCorrect: true},
+        //     ],
+        // },
+        // {  
+        //     questionText: '/naturalloga/Q11.png',
+        //     answerOptions: [
+        //         {imgAns: '/shop-items/True.png', isCorrect: false},
+        //         {imgAns: '/shop-items/Fals.png', isCorrect: true},
+        //     ],
+        // },
+        // {  
+        //     questionText: '/naturalloga/Q12.png',
+        //     answerOptions: [
+        //         {imgAns: '/shop-items/True.png', isCorrect: false},
+        //         {imgAns: '/shop-items/Fals.png', isCorrect: true},
+        //     ],
+        // },
+        // {  
+        //     questionText: '/naturalloga/Q13.png',
+        //     answerOptions: [
+        //         {imgAns: '/shop-items/True.png', isCorrect: true},
+        //         {imgAns: '/shop-items/Fals.png', isCorrect: false},
+        //     ],
+        // },
+        // {  
+        //     questionText: '/naturalloga/Q14.png',
+        //     answerOptions: [
+        //         {imgAns: '/shop-items/True.png', isCorrect: true},
+        //         {imgAns: '/shop-items/Fals.png', isCorrect: false},
+        //     ],
+        // },
+        // {  
+        //     questionText: '/naturalloga/Q15.png',
+        //     answerOptions: [
+        //         {imgAns: '/shop-items/True.png', isCorrect: false},
+        //         {imgAns: '/shop-items/Fals.png', isCorrect: true},
+        //     ],
+        // },
+        // {  
+        //     questionText: '/naturalloga/Q16.png',
+        //     answerOptions: [
+        //         {imgAns: '/shop-items/True.png', isCorrect: true},
+        //         {imgAns: '/shop-items/Fals.png', isCorrect: false},
+        //     ],
+        // },
+        // {  
+        //     questionText: '/naturalloga/Q17.png',
+        //     answerOptions: [
+        //         {imgAns: '/shop-items/True.png', isCorrect: false},
+        //         {imgAns: '/shop-items/Fals.png', isCorrect: true},
+        //     ],
+        // },
         {  
             questionText: '/naturalloga/Q18.png',
             answerOptions: [

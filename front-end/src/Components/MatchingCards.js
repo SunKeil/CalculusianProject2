@@ -4,18 +4,18 @@ import Card from "./Card"
 
 const MatchingCards = ()=>{
     const [items, setItems] =useState([
-        {id:1, img: '/expo/Q2.png', stat: ""},
-        {id:1, img: '/expo/Q2CorrectAnswer.png', stat: ""},
-        {id:2, img: '/expo/Q3.png', stat: ""},
-        {id:2, img: '/expo/Q3CorrectAnswer.png', stat: ""},
-        {id:3, img: '/expo/Q4.png', stat: ""},
-        {id:3, img: '/expo/Q4CorrectAnswer.png', stat: ""},
-        {id:4, img: '/expo/Q5.png', stat: ""},
-        {id:4, img: '/expo/Q5CorrectAnswer.png', stat: ""},
-        {id:5, img: '/expo/Q6.png', stat: ""},
-        {id:5, img: '/expo/Q6CorrectAnswer.png', stat: ""},
-        {id:6, img: '/expo/Q7.png', stat: ""},
-        {id:6, img: '/expo/Q7CorrectAnswer.png', stat: ""}
+        {id:1, img: '/expo/Exponential1.png', stat: ""},
+        {id:1, img: '/expo/Exponential1.png', stat: ""},
+        {id:2, img: '/expo/Inverse1.png', stat: ""},
+        {id:2, img: '/expo/Inverse1.png', stat: ""},
+        {id:3, img: '/expo/Trigo1.png', stat: ""},
+        {id:3, img: '/expo/Trigo1.png', stat: ""},
+        {id:4, img: '/expo/NaturalLoga.png', stat: ""},
+        {id:4, img: '/expo/NaturalLoga.png', stat: ""},
+        {id:5, img: '/expo/Trigo4.png', stat: ""},
+        {id:5, img: '/expo/Trigo4.png', stat: ""},
+        {id:6, img: '/expo/Inverse4.png', stat: ""},
+        {id:6, img: '/expo/Inverse4.png', stat: ""}
     ].sort(()=>Math.random()- 0.5))
     const [prev, setPrev] = useState(-1)
     function check(current){

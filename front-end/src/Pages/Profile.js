@@ -12,7 +12,7 @@ function Profile() {
     // const details = details.details
     // console.log(details.details)
     const [name, setName]=useState('')
-    const [lrn, setLRN]=useState('')
+    // const [lrn, setLRN]=useState('')
     const [section, setSection]=useState('')
     const [descr, setDescr]=useState('')
     const [pending, setPending] =useState(false)
@@ -33,7 +33,7 @@ function Profile() {
 
     const handleSubmit = (e) =>{
         e.preventDefault( )
-        const details = {name, lrn, section, descr};
+        const details = {name, section, descr};
         setPending(true)
 
         fetch('http://localhost:3000/profile', {
@@ -57,13 +57,13 @@ function Profile() {
             value={name}
             onChange={(e)=>setName(e.target.value)}
             />
-            <label>Student-LRN:</label>
+            {/* <label>Student-LRN:</label>
             <input 
             type='text'
             required
             value={lrn}
             onChange={(e)=>setLRN(e.target.value)}
-            />
+            /> */}
             <label>Student-Section:</label>
             <input 
             type='text'
@@ -89,7 +89,6 @@ function Profile() {
                             </div>
                         </div>
                         <h2>Name: {name}</h2>
-                        <p>Lrn: {lrn}</p>
                         <p>Section: {section}</p>
                         <h5>About:</h5>
                         <p>Hello Im {name}: {descr}</p>

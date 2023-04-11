@@ -1,21 +1,21 @@
 import { Link } from "react-router-dom"
-import  problem1 from "../Components/images/3. Integrals Leading to Natural Logarithms/Natural Logarithmic Example 1.png"
-import  solution1 from  "../Components/images/3. Integrals Leading to Natural Logarithms/Natural Logarithmic Solution 1.png"
-import  problem2  from "../Components/images/3. Integrals Leading to Natural Logarithms/Natural Logarithmic Example 2.png"
-import  solution2 from  "../Components/images/3. Integrals Leading to Natural Logarithms/Natural Logarithmic Solution 2.png"
-import  problem3  from "../Components/images/3. Integrals Leading to Natural Logarithms/Natural Logarithmic Example 3.png"
-import  solution3 from  "../Components/images/3. Integrals Leading to Natural Logarithms/Natural Logarithmic Solution 3.png"
-import  problem4  from "../Components/images/3. Integrals Leading to Natural Logarithms/Natural Logarithmic Example 4.png"
-import  solution4 from  "../Components/images/3. Integrals Leading to Natural Logarithms/Natural Logarithmic Solution 4.png"
+import  problem1 from "../Components/images/nl/Natural1.jpg"
+import  solution1 from  "../Components/images/nl/Natural2.jpg"
+import  problem2  from "../Components/images/nl/Natural3.jpg"
+import  solution2 from  "../Components/images/nl/Natural4.jpg"
+import  problem3  from "../Components/images/nl/Natural5.jpg"
+import  solution3 from  "../Components/images/nl/Natural6.jpg"
+import  problem4  from "../Components/images/nl/Natural7.jpg"
+import  solution4 from  "../Components/images/nl/Natural8.jpg"
+import  problem5  from "../Components/images/nl/Natural9.jpg"
+import  problem6 from  "../Components/images/nl/Natural10.jpg"
+import  problem7 from  "../Components/images/nl/Natural11.jpg"
+
 
 
     let topicone = {
         title: "Integrals Leading to Natural Logarithms",
-        objective: "Objective: At the end of this lesson, the students should be able to evaluate the integral of a fraction whose numerator is the differential of the denominator.",
-        definition: "Definition: The integral of a fraction whose numerator is the differential of the denominator is equal to the logarithm of the denominator. ",
-        formula:"Formula Natural Logarithmic.png",
-        example: "Examples:",
-        note: "If the integrand is a fraction whose degree of numerator is greater than or equal to the degree of the denominator, express the integrand into mixed expression before evaluating the integral.",
+        
     }
 
 
@@ -26,44 +26,56 @@ return(
         <div className="container mt-5">
             <div className="limits-wrapper">
                 <h2>{topicone.title}</h2>
-                <p>{topicone.objective}</p>
+                
             </div>
             <div className="limits-wrapper">
-                <p>{topicone.definition}</p>
-                <div className="limits-wrapper">
-                    <h4>{topicone.example}</h4>
-                </div>
-                    <div className="col-4">
+                
+                    <div>
                         <img src={problem1} alt="sample1"/>
                     </div>
-                    <div className="col-4">
+                    <div>
                         <img src={solution1} alt="sample2"/>
                     </div>
-                    <div className="col-4">
+                    <div>
                         <img src={problem2} alt="sample3"/>
                     </div>
-                    <div className="col-4">
+                    <div>
                         <img src={solution2} alt="sample2"/>
                     </div>
-                    <div className="col-4">
+                    <div>
                         <img src={problem3} alt="sample3"/>
                     </div>
-                    <div className="col-4">
+                    <div>
                         <img src={solution3} alt="sample2"/>
                     </div>
-                    <div className="col-4">
+                    <div>
                         <img src={problem4} alt="sample3"/>
                     </div>
-                    <div className="col-4">
+                    <div>
                         <img src={solution4} alt="sample2"/>
                     </div>
-            </div>
-            <div className="limits-wrapper">
+                    <div>
+                        <img src={problem5} alt="sample3"/>
+                    </div>
+                    <div>
+                        <img src={problem6} alt="sample2"/>
+                    </div>
+
+                    <div>
+                        <img src={problem7} alt="sample3"/>
+                    </div>
+                    <div className="limits-wrapper">
                     <h4>Note:</h4>
-                </div>
-            <div className="limits-wrapper">
-                <p>{topicone.note}</p>
-            </div>
+                        </div>
+                            <div className="limits-wrapper size text-center">
+                                <p>{topicone.note}</p>
+                                <p>For further understanding you can watch this videos then yung link</p>
+                                <p>Learn more by watching it here... <a href="https://youtu.be/K3IoM2iVSe4 ">Part 1</a></p>
+                                <p>Watch the second part... <a href="https://youtu.be/LdjumZxwmjU ">Part 2</a></p>
+                            </div>
+                  
+                        </div>
+           
             <Link to='/courses'>
                     <button className="btn-next float-end mb-5">Complete</button>
                 </Link>

@@ -32,12 +32,12 @@ const Home = ()=>{
         <div className="home">
             <div className="container">
                 <div className='row'>
-                    <div className='forum col-5'>
+                    <div className='forum col-sm-12 col-md-6'>
                         <div className='forum-input'>
                             <ForumInputs/>
                         </div>
                     </div>
-                    <div className='forum col-7'>
+                    <div className='forum col-sm-12 col-md-6'>
                         {forum && forum.map((forums)=>(
                             <ForumDetails key={forums._id} forum ={forums}/>
                         ))}

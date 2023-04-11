@@ -1,10 +1,12 @@
 
 import { Link } from "react-router-dom"
-import formula from "../Components/images/1. Integration of Power Rule/FormulaPowerRule.png"
-import problem1 from "../Components/images/1. Integration of Power Rule/PowerRuleExample1.png"
-import solution1 from  "../Components/images/1. Integration of Power Rule/PowerRuleSolution1.png"
-import problem2 from "../Components/images/1. Integration of Power Rule/PowerRuleExample2.png"
-import solution2 from  "../Components/images/1. Integration of Power Rule/PowerRuleSolution2.png"
+
+import problem1 from "../Components/images/iopr/Power1.jpg"
+import solution1 from  "../Components/images/iopr/Power2.jpg"
+import problem2 from "../Components/images/iopr/Power3.jpg"
+import solution2 from  "../Components/images/iopr/Power4.jpg"
+import problem3 from "../Components/images/iopr/Power5.jpg"
+
 
 let topicone = 
     {
@@ -25,31 +27,30 @@ const Limits = ()=>{
                 <div className="limits-wrapper">
                     <h2>{topicone.title}</h2>
                     <p>{topicone.objective}</p>
-                </div>
-                <div className="limits-wrapper">
-                    <p>{topicone.definition}</p>
-                    <h4>Formula</h4>
-                    <img src={formula} alt='formula'/>
-                    <div className="limits-wrapper">
-                        <h4>{topicone.example}</h4>
-                    </div>
-                        <div className="col-4">
+                    <div className="img-course">
                             <img src={problem1} alt="sample1"/>
                         </div>
-                        <div className="col-4">
+                        <div className="img-course">
                             <img src={solution1} alt="sample3"/>
                         </div>
-                        <div className="col-4">
+                        <div className="img-course">
                             <img src={problem2} alt="sample2"/>
                         </div>
-                        <div className="col-4">
+                        <div className="img-course">
                             <img src={solution2} alt="sample2"/>
                         </div>
+                        <div className="img-course">
+                            <img src={problem3} alt="sample2"/>
+                        </div>
+                        <div className="limits-wrapper size">
+                            <h4>Note:</h4>
+                            <p>{topicone.note}</p>
+                            <p>For further understanding you can watch this videos then yung link</p>
+                            <p>Learn more by watching it here... <a href="https://youtu.be/RNLEk4ko3mE">Learn more</a></p>
+                            
+                        </div>
                 </div>
-                <div className="limits-wrapper">
-                    <h4>Note:</h4>
-                    <p>{topicone.note}</p>
-                </div>
+               
                 <Link to='/courses'>
                     <button className="btn-next float-end mb-5">Complete</button>
                 </Link>

@@ -40,6 +40,9 @@ const IFL = ()=>{
                 <div className="col-4">
                     <img src={solution2} alt="sample1"/>
                 </div>
+                <div className="limits-wrapper">
+                <p>{topicone.note}</p>
+            </div>
                 </div>
                 <Link to='/courses'>
                     <button className="btn-next float-end mb-5">Complete</button>

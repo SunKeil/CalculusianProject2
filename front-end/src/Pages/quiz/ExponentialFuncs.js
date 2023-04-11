@@ -67,103 +67,103 @@ const ExponentialFuncs = ()=>{
                 {imgAns: '/expo/Q7CorrectAnswer.png', isCorrect: true},
             ],
         },
-        {  
-            questionText: '/expo/Q8.png',
-            answerOptions: [
-                {imgAns: '/expo/Q8Answer1.png', isCorrect: false},
-                {imgAns: '/expo/Q8CorrectAnswer.png', isCorrect: true},
-                {imgAns: '/expo/Q8Answer2.png', isCorrect: false},
-                {imgAns: '/expo/Q8Answer3.png', isCorrect: false},
-            ],
-        },
-        {  
-            questionText: '/expo/Q9.png',
-            answerOptions: [
-                {imgAns: '/expo/Q9CorrectAnswer.png', isCorrect: true},
-                {imgAns: '/expo/Q9Answer1.png', isCorrect: false},
-                {imgAns: '/expo/Q9Answer2.png', isCorrect: false},
-                {imgAns: '/expo/Q9Answer3.png', isCorrect: false},
-            ],
-        },
-        {  
-            questionText: '/expo/Q10.png',
-            answerOptions: [
-                {imgAns: '/expo/Q10Answer1.png', isCorrect: false},
-                {imgAns: '/expo/Q10Answer2.png', isCorrect: false},
-                {imgAns: '/expo/Q10Answer3.png', isCorrect: false},
-                {imgAns: '/expo/Q10CorrectAnswer.png', isCorrect: true},
-            ],
-        },
-        {  
-            questionText: '/expo/Q11.png',
-            answerOptions: [
-                {imgAns: '/shop-items/True.png', isCorrect: true},
-                {imgAns: '/shop-items/Fals.png', isCorrect: false},
-            ],
-        },
-        {  
-            questionText: '/expo/Q12.png',
-            answerOptions: [
-                {imgAns: '/shop-items/True.png', isCorrect: true},
-                {imgAns: '/shop-items/Fals.png', isCorrect: false},
-            ],
-        },
-        {  
-            questionText: '/expo/Q13.png',
-            answerOptions: [
-                {imgAns: '/shop-items/True.png', isCorrect: false},
-                {imgAns: '/shop-items/Fals.png', isCorrect: true},
-            ],
-        },
-        {  
-            questionText: '/expo/Q14.png',
-            answerOptions: [
-                {imgAns: '/shop-items/True.png', isCorrect: true},
-                {imgAns: '/shop-items/Fals.png', isCorrect: false},
-            ],
-        },
-        {  
-            questionText: '/expo/Q15.png',
-            answerOptions: [
-                {imgAns: '/shop-items/True.png', isCorrect: false},
-                {imgAns: '/shop-items/Fals.png', isCorrect: true},
-            ],
-        },
-        {  
-            questionText: '/expo/Q16.png',
-            answerOptions: [
-                {imgAns: '/shop-items/True.png', isCorrect: false},
-                {imgAns: '/shop-items/Fals.png', isCorrect: true},
-            ],
-        },
-        {  
-            questionText: '/expo/Q17.png',
-            answerOptions: [
-                {imgAns: '/shop-items/True.png', isCorrect: false},
-                {imgAns: '/shop-items/Fals.png', isCorrect: true},
-            ],
-        },
-        {  
-            questionText: '/expo/Q18.png',
-            answerOptions: [
-                {imgAns: '/shop-items/True.png', isCorrect: true},
-                {imgAns: '/shop-items/Fals.png', isCorrect: false},
-            ],
-        },
-        {  
-            questionText: '/expo/Q19.png',
-            answerOptions: [
-                {imgAns: '/shop-items/True.png', isCorrect: false},
-                {imgAns: '/shop-items/Fals.png', isCorrect: true},
-            ],
-        },
-        {  
-            questionText: '/expo/Q20.png',
-            answerOptions: [
-                {imgAns: '/shop-items/True.png', isCorrect: true},
-                {imgAns: '/shop-items/Fals.png', isCorrect: false},
-            ],
-        },
+        // {  
+        //     questionText: '/expo/Q8.png',
+        //     answerOptions: [
+        //         {imgAns: '/expo/Q8Answer1.png', isCorrect: false},
+        //         {imgAns: '/expo/Q8CorrectAnswer.png', isCorrect: true},
+        //         {imgAns: '/expo/Q8Answer2.png', isCorrect: false},
+        //         {imgAns: '/expo/Q8Answer3.png', isCorrect: false},
+        //     ],
+        // },
+        // {  
+        //     questionText: '/expo/Q9.png',
+        //     answerOptions: [
+        //         {imgAns: '/expo/Q9CorrectAnswer.png', isCorrect: true},
+        //         {imgAns: '/expo/Q9Answer1.png', isCorrect: false},
+        //         {imgAns: '/expo/Q9Answer2.png', isCorrect: false},
+        //         {imgAns: '/expo/Q9Answer3.png', isCorrect: false},
+        //     ],
+        // },
+        // {  
+        //     questionText: '/expo/Q10.png',
+        //     answerOptions: [
+        //         {imgAns: '/expo/Q10Answer1.png', isCorrect: false},
+        //         {imgAns: '/expo/Q10Answer2.png', isCorrect: false},
+        //         {imgAns: '/expo/Q10Answer3.png', isCorrect: false},
+        //         {imgAns: '/expo/Q10CorrectAnswer.png', isCorrect: true},
+        //     ],
+        // },
+        // {  
+        //     questionText: '/expo/Q11.png',
+        //     answerOptions: [
+        //         {imgAns: '/shop-items/True.png', isCorrect: true},
+        //         {imgAns: '/shop-items/Fals.png', isCorrect: false},
+        //     ],
+        // },
+        // {  
+        //     questionText: '/expo/Q12.png',
+        //     answerOptions: [
+        //         {imgAns: '/shop-items/True.png', isCorrect: true},
+        //         {imgAns: '/shop-items/Fals.png', isCorrect: false},
+        //     ],
+        // },
+        // {  
+        //     questionText: '/expo/Q13.png',
+        //     answerOptions: [
+        //         {imgAns: '/shop-items/True.png', isCorrect: false},
+        //         {imgAns: '/shop-items/Fals.png', isCorrect: true},
+        //     ],
+        // },
+        // {  
+        //     questionText: '/expo/Q14.png',
+        //     answerOptions: [
+        //         {imgAns: '/shop-items/True.png', isCorrect: true},
+        //         {imgAns: '/shop-items/Fals.png', isCorrect: false},
+        //     ],
+        // },
+        // {  
+        //     questionText: '/expo/Q15.png',
+        //     answerOptions: [
+        //         {imgAns: '/shop-items/True.png', isCorrect: false},
+        //         {imgAns: '/shop-items/Fals.png', isCorrect: true},
+        //     ],
+        // },
+        // {  
+        //     questionText: '/expo/Q16.png',
+        //     answerOptions: [
+        //         {imgAns: '/shop-items/True.png', isCorrect: false},
+        //         {imgAns: '/shop-items/Fals.png', isCorrect: true},
+        //     ],
+        // },
+        // {  
+        //     questionText: '/expo/Q17.png',
+        //     answerOptions: [
+        //         {imgAns: '/shop-items/True.png', isCorrect: false},
+        //         {imgAns: '/shop-items/Fals.png', isCorrect: true},
+        //     ],
+        // },
+        // {  
+        //     questionText: '/expo/Q18.png',
+        //     answerOptions: [
+        //         {imgAns: '/shop-items/True.png', isCorrect: true},
+        //         {imgAns: '/shop-items/Fals.png', isCorrect: false},
+        //     ],
+        // },
+        // {  
+        //     questionText: '/expo/Q19.png',
+        //     answerOptions: [
+        //         {imgAns: '/shop-items/True.png', isCorrect: false},
+        //         {imgAns: '/shop-items/Fals.png', isCorrect: true},
+        //     ],
+        // },
+        // {  
+        //     questionText: '/expo/Q20.png',
+        //     answerOptions: [
+        //         {imgAns: '/shop-items/True.png', isCorrect: true},
+        //         {imgAns: '/shop-items/Fals.png', isCorrect: false},
+        //     ],
+        // },
     ]
     const [showScore, setshowScore] = useState (false)
     const [currentquestion, setCurrentQuestion] = useState(0)
@@ -193,6 +193,7 @@ const ExponentialFuncs = ()=>{
                     <div className="question mt-5 mb-5">
                         <h4>Question {currentquestion + 1}/{questionexponential.length}</h4>
                         <p>Answer the following questions</p>
+                    
                         <img src={questionexponential[currentquestion].questionText} alt="question"/>
                     </div>
                     <div className="answers">

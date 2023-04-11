@@ -4,15 +4,15 @@ import {useState} from "react"
 const TrigoFunctions = ()=>{
 
     const questiontrigonometric = [
-        {  
-            questionText: 'The following are the integration formula of trigonometric functions, EXCEPT',
-            answerOptions: [
-                {imgAns: '/trigo/Q1Answer1.png', isCorrect: false},
-                {imgAns: '/trigo/Q1Answer2.png', isCorrect: false},
-                {imgAns: '/trigo/Q1CorrectAnswer.png', isCorrect: true},
-                {imgAns: '/trigo/Q1Answer3.png', isCorrect: false},
-            ],
-        },
+        // {  
+        //     questionText: './trigo/Q1.png',
+        //     answerOptions: [
+        //         {imgAns: '/trigo/Q1Answer1.png', isCorrect: false},
+        //         {imgAns: '/trigo/Q1Answer2.png', isCorrect: false},
+        //         {imgAns: '/trigo/Q1CorrectAnswer.png', isCorrect: true},
+        //         {imgAns: '/trigo/Q1Answer3.png', isCorrect: false},
+        //     ],
+        // },
         {  
             questionText: '/trigo/Q2.png',
             answerOptions: [
@@ -40,33 +40,33 @@ const TrigoFunctions = ()=>{
                 {imgAns: '/trigo/Q4CorrectAnswer.png', isCorrect: true},
             ],
         },
-        {  
-            questionText: '/trigo/Q5.png',
-            answerOptions: [
-                {imgAns: '/trigo/Q5CorrectAnswer.png', isCorrect: true},
-                {imgAns: '/trigo/Q5Answer1.png', isCorrect: false},
-                {imgAns: '/trigo/Q5Answer2.png', isCorrect: false},
-                {imgAns: '/trigo/Q5Answer3.png', isCorrect: false},
-            ],
-        },
-        {  
-            questionText: '/trigo/Q6.png',
-            answerOptions: [
-                {imgAns: '/trigo/Q6Answer1.png', isCorrect: false},
-                {imgAns: '/trigo/Q6CorrectAnswer.png', isCorrect: true},
-                {imgAns: '/trigo/Q6Answer2.png', isCorrect: false},
-                {imgAns: '/trigo/Q6Answer3.png', isCorrect: false},
-            ],
-        },
-        {  
-            questionText: '/trigo/Q7.png',
-            answerOptions: [
-                {imgAns: '/trigo/Q7Answer1.png', isCorrect: false},
-                {imgAns: '/trigo/Q7Answer2.png', isCorrect: false},
-                {imgAns: '/trigo/Q7Answer3.png', isCorrect: false},
-                {imgAns: '/trigo/Q7CorrectAnswer.png', isCorrect: true},
-            ],
-        },
+        // {  
+        //     questionText: '/trigo/Q5.png',
+        //     answerOptions: [
+        //         {imgAns: '/trigo/Q5CorrectAnswer.png', isCorrect: true},
+        //         {imgAns: '/trigo/Q5Answer1.png', isCorrect: false},
+        //         {imgAns: '/trigo/Q5Answer2.png', isCorrect: false},
+        //         {imgAns: '/trigo/Q5Answer3.png', isCorrect: false},
+        //     ],
+        // },
+        // {  
+        //     questionText: '/trigo/Q6.png',
+        //     answerOptions: [
+        //         {imgAns: '/trigo/Q6Answer1.png', isCorrect: false},
+        //         {imgAns: '/trigo/Q6CorrectAnswer.png', isCorrect: true},
+        //         {imgAns: '/trigo/Q6Answer2.png', isCorrect: false},
+        //         {imgAns: '/trigo/Q6Answer3.png', isCorrect: false},
+        //     ],
+        // },
+        // {  
+        //     questionText: '/trigo/Q7.png',
+        //     answerOptions: [
+        //         {imgAns: '/trigo/Q7Answer1.png', isCorrect: false},
+        //         {imgAns: '/trigo/Q7Answer2.png', isCorrect: false},
+        //         {imgAns: '/trigo/Q7Answer3.png', isCorrect: false},
+        //         {imgAns: '/trigo/Q7CorrectAnswer.png', isCorrect: true},
+        //     ],
+        // },
         {  
             questionText: '/trigo/Q8.png',
             answerOptions: [
@@ -101,69 +101,69 @@ const TrigoFunctions = ()=>{
                 {imgAns: '/shop-items/Fals.png', isCorrect: true},
             ],
         },
-        {  
-            questionText: '/trigo/Q12.png',
-            answerOptions: [
-                {imgAns: '/shop-items/True.png', isCorrect: false},
-                {imgAns: '/shop-items/Fals.png', isCorrect: true},
-            ],
-        },
-        {  
-            questionText: '/trigo/Q13.png',
-            answerOptions: [
-                {imgAns: '/shop-items/True.png', isCorrect: true},
-                {imgAns: '/shop-items/Fals.png', isCorrect: false},
-            ],
-        },
-        {  
-            questionText: '/trigo/Q14.png',
-            answerOptions: [
-                {imgAns: '/shop-items/True.png', isCorrect: true},
-                {imgAns: '/shop-items/Fals.png', isCorrect: false},
-            ],
-        },
-        {  
-            questionText: '/trigo/Q15.png',
-            answerOptions: [
-                {imgAns: '/shop-items/True.png', isCorrect: false},
-                {imgAns: '/shop-items/Fals.png', isCorrect: true},
-            ],
-        },
-        {  
-            questionText: '/trigo/Q16.png',
-            answerOptions: [
-                {imgAns: '/shop-items/True.png', isCorrect: true},
-                {imgAns: '/shop-items/Fals.png', isCorrect: false},
-            ],
-        },
-        {  
-            questionText: '/trigo/Q17.png',
-            answerOptions: [
-                {imgAns: '/shop-items/True.png', isCorrect: false},
-                {imgAns: '/shop-items/Fals.png', isCorrect: true},
-            ],
-        },
-        {  
-            questionText: '/trigo/Q18.png',
-            answerOptions: [
-                {imgAns: '/shop-items/True.png', isCorrect: true},
-                {imgAns: '/shop-items/Fals.png', isCorrect: false},
-            ],
-        },
-        {  
-            questionText: '/trigo/Q19.png',
-            answerOptions: [
-                {imgAns: '/shop-items/True.png', isCorrect: true},
-                {imgAns: '/shop-items/Fals.png', isCorrect: false},
-            ],
-        },
-        {  
-            questionText: '/trigo/Q20.png',
-            answerOptions: [
-                {imgAns: '/shop-items/True.png', isCorrect: true},
-                {imgAns: '/shop-items/Fals.png', isCorrect: false},
-            ],
-        },
+        // {  
+        //     questionText: '/trigo/Q12.png',
+        //     answerOptions: [
+        //         {imgAns: '/shop-items/True.png', isCorrect: false},
+        //         {imgAns: '/shop-items/Fals.png', isCorrect: true},
+        //     ],
+        // },
+        // {  
+        //     questionText: '/trigo/Q13.png',
+        //     answerOptions: [
+        //         {imgAns: '/shop-items/True.png', isCorrect: true},
+        //         {imgAns: '/shop-items/Fals.png', isCorrect: false},
+        //     ],
+        // },
+        // {  
+        //     questionText: '/trigo/Q14.png',
+        //     answerOptions: [
+        //         {imgAns: '/shop-items/True.png', isCorrect: true},
+        //         {imgAns: '/shop-items/Fals.png', isCorrect: false},
+        //     ],
+        // },
+        // {  
+        //     questionText: '/trigo/Q15.png',
+        //     answerOptions: [
+        //         {imgAns: '/shop-items/True.png', isCorrect: false},
+        //         {imgAns: '/shop-items/Fals.png', isCorrect: true},
+        //     ],
+        // },
+        // {  
+        //     questionText: '/trigo/Q16.png',
+        //     answerOptions: [
+        //         {imgAns: '/shop-items/True.png', isCorrect: true},
+        //         {imgAns: '/shop-items/Fals.png', isCorrect: false},
+        //     ],
+        // },
+        // {  
+        //     questionText: '/trigo/Q17.png',
+        //     answerOptions: [
+        //         {imgAns: '/shop-items/True.png', isCorrect: false},
+        //         {imgAns: '/shop-items/Fals.png', isCorrect: true},
+        //     ],
+        // },
+        // {  
+        //     questionText: '/trigo/Q18.png',
+        //     answerOptions: [
+        //         {imgAns: '/shop-items/True.png', isCorrect: true},
+        //         {imgAns: '/shop-items/Fals.png', isCorrect: false},
+        //     ],
+        // },
+        // {  
+        //     questionText: '/trigo/Q19.png',
+        //     answerOptions: [
+        //         {imgAns: '/shop-items/True.png', isCorrect: true},
+        //         {imgAns: '/shop-items/Fals.png', isCorrect: false},
+        //     ],
+        // },
+        // {  
+        //     questionText: '/trigo/Q20.png',
+        //     answerOptions: [
+        //         {imgAns: '/shop-items/True.png', isCorrect: true},
+        //         {imgAns: '/shop-items/Fals.png', isCorrect: false},
+        //     ],
+        // },
     ]
     
     

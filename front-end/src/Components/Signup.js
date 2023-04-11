@@ -7,7 +7,7 @@ import { useUserHooks } from '../Hooks/useUserHook'
 const Signup = ()=>{
     const {user} = useUserHooks()
     const [email,setEmail] = useState('')
-    const [lrn,setLRN] = useState('')
+    // const [lrn,setLRN] = useState('')
     const [password, setPassword] = useState('')
     const {signup,error,isLoading} = useSignup()
    
@@ -15,7 +15,7 @@ const Signup = ()=>{
     const handleSubmit = async (e)=>{
         e.preventDefault()
         console.log(email,password)
-        await signup(email,password,lrn)
+        await signup(email,password)
         
     }
 
@@ -35,12 +35,12 @@ const Signup = ()=>{
             onChange={(e)=>{setPassword(e.target.value)}}
             value={password}
             />
-             <label>LRN:</label>
-            <input 
+             {/* <label>LRN:</label> */}
+            {/* <input 
             type='text' 
             onChange={(e)=>{setLRN(e.target.value)}}
             value={lrn}
-            />
+            /> */}
             <div className='caution'>
                 <p>Symbols, numbers, and capital letters are required in the password.</p>
             </div>

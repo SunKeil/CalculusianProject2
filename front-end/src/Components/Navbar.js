@@ -8,10 +8,12 @@ import userProfile from '../Components/userprofile.png'
 
 
 
+
 const Navbar = () => {
     const {logout} = useLogout()
     const {user} = useUserHooks()
-     
+  
+   
     const handleClick = ()=>{
      logout()
     }
@@ -29,11 +31,13 @@ const Navbar = () => {
            {user && (
                 <div className="nav-item-wrapper col-3">
                     <ul>
-                        <Link to='/'><li>Forum</li></Link>
-                        <Link to='courses'><li>Courses</li></Link>
-                        <Link to='quiz'><li>Quiz</li></Link>
-                        <Link to='games'><li>Games</li></Link> 
-                        <Link to='admin'><li className='admin-link'>Admin</li></Link> 
+                        <Link to='/'>Home</Link>
+                        <Link to='/about'>About</Link>
+                        <Link to='/forum'>Forum</Link>
+                        <Link to='courses'>Courses</Link>
+                        <Link to='quiz'>Quiz</Link>
+                        <Link to='games'>Games</Link> 
+                        {/* <Link to='admin'><li className='admin-link'>Admin</li></Link>  */}
                     </ul>
                 </div>
                 )} 
@@ -43,9 +47,9 @@ const Navbar = () => {
                         <div className="nav-profile col row align-items-center">
                             <div className='col userprofile-nav'>
                                 <img src={userProfile} alt="profile"/>
-                            <Link to="profile">
-                                <p>{user.email}</p>
-                            </Link> 
+                                    <Link to="profile">
+                                        <p>{user.email}</p>
+                                    </Link> 
                                 <button className='logout' onClick={handleClick}>Logout</button>
                             </div>
                         </div> 

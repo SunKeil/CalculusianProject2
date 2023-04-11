@@ -5,24 +5,24 @@ import {useState} from "react"
 const PowerRule = ()=>{
 
     const questionpowerrule = [
-        {  
-            questionText: '/power/Q1.png',
-            answerOptions: [
-                {imgAns: '/power/Q1CorrectAnswer.png', isCorrect: true},
-                {imgAns: '/power/Q1Answer1.png', isCorrect: false},
-                {imgAns: '/power/Q1Answer2.png', isCorrect: false},
-                {imgAns: '/power/Q1Answer3.png', isCorrect: false},
-            ],
-        },
-        {  
-            questionText: '/power/Q2.png',
-            answerOptions: [
-                {imgAns: '/power/Q2Answer1.png', isCorrect: false},
-                {imgAns: '/power/Q2CorrectAnswer.png', isCorrect: true},
-                {imgAns: '/power/Q2Answer2.png', isCorrect: false},
-                {imgAns: '/power/Q2Answer3.png', isCorrect: false},
-            ],
-        },
+        // {  
+        //     questionText: '/power/Q1.png',
+        //     answerOptions: [
+        //         {imgAns: '/power/Q1CorrectAnswer.png', isCorrect: true},
+        //         {imgAns: '/power/Q1Answer1.png', isCorrect: false},
+        //         {imgAns: '/power/Q1Answer2.png', isCorrect: false},
+        //         {imgAns: '/power/Q1Answer3.png', isCorrect: false},
+        //     ],
+        // },
+        // {  
+        //     questionText: '/power/Q2.png',
+        //     answerOptions: [
+        //         {imgAns: '/power/Q2Answer1.png', isCorrect: false},
+        //         {imgAns: '/power/Q2CorrectAnswer.png', isCorrect: true},
+        //         {imgAns: '/power/Q2Answer2.png', isCorrect: false},
+        //         {imgAns: '/power/Q2Answer3.png', isCorrect: false},
+        //     ],
+        // },
         {  
             questionText: '/power/Q3.png',
             answerOptions: [
@@ -50,42 +50,42 @@ const PowerRule = ()=>{
                 {imgAns: '/power/Q5Answer3.png', isCorrect: false},
             ],
         },
-        {  
-            questionText: '/power/Q6.png',
-            answerOptions: [
-                {imgAns: '/power/Q6Answer1.png', isCorrect: false},
-                {imgAns: '/power/Q6CorrectAnswer.png', isCorrect: true},
-                {imgAns: '/power/Q6Answer2.png', isCorrect: false},
-                {imgAns: '/power/Q6Answer3.png', isCorrect: false},
-            ],
-        },
-        {  
-            questionText: '/power/Q7.png',
-            answerOptions: [
-                {imgAns: '/power/Q7Answer1.png', isCorrect: false},
-                {imgAns: '/power/Q7Answer2.png', isCorrect: false},
-                {imgAns: '/power/Q7Answer3.png', isCorrect: false},
-                {imgAns: '/power/Q7CorrectAnswer.png', isCorrect: true},
-            ],
-        },
-        {  
-            questionText: '/power/Q8.png',
-            answerOptions: [
-                {imgAns: '/power/Q8Answer1.png', isCorrect: false},
-                {imgAns: '/power/Q8CorrectAnswer.png', isCorrect: true},
-                {imgAns: '/power/Q8Answer2.png', isCorrect: false},
-                {imgAns: '/power/Q8Answer3.png', isCorrect: false},
-            ],
-        },
-        {  
-            questionText: '/power/Q9.png',
-            answerOptions: [
-                {imgAns: '/power/Q9CorrectAnswer.png', isCorrect: true},
-                {imgAns: '/power/Q9Answer1.png', isCorrect: false},
-                {imgAns: '/power/Q9Answer2.png', isCorrect: false},
-                {imgAns: '/power/Q9Answer3.png', isCorrect: false},
-            ],
-        },
+        // {  
+        //     questionText: '/power/Q6.png',
+        //     answerOptions: [
+        //         {imgAns: '/power/Q6Answer1.png', isCorrect: false},
+        //         {imgAns: '/power/Q6CorrectAnswer.png', isCorrect: true},
+        //         {imgAns: '/power/Q6Answer2.png', isCorrect: false},
+        //         {imgAns: '/power/Q6Answer3.png', isCorrect: false},
+        //     ],
+        // },
+        // {  
+        //     questionText: '/power/Q7.png',
+        //     answerOptions: [
+        //         {imgAns: '/power/Q7Answer1.png', isCorrect: false},
+        //         {imgAns: '/power/Q7Answer2.png', isCorrect: false},
+        //         {imgAns: '/power/Q7Answer3.png', isCorrect: false},
+        //         {imgAns: '/power/Q7CorrectAnswer.png', isCorrect: true},
+        //     ],
+        // },
+        // {  
+        //     questionText: '/power/Q8.png',
+        //     answerOptions: [
+        //         {imgAns: '/power/Q8Answer1.png', isCorrect: false},
+        //         {imgAns: '/power/Q8CorrectAnswer.png', isCorrect: true},
+        //         {imgAns: '/power/Q8Answer2.png', isCorrect: false},
+        //         {imgAns: '/power/Q8Answer3.png', isCorrect: false},
+        //     ],
+        // },
+        // {  
+        //     questionText: '/power/Q9.png',
+        //     answerOptions: [
+        //         {imgAns: '/power/Q9CorrectAnswer.png', isCorrect: true},
+        //         {imgAns: '/power/Q9Answer1.png', isCorrect: false},
+        //         {imgAns: '/power/Q9Answer2.png', isCorrect: false},
+        //         {imgAns: '/power/Q9Answer3.png', isCorrect: false},
+        //     ],
+        // },
         {  
             questionText: '/power/Q10.png',
             answerOptions: [
@@ -109,55 +109,55 @@ const PowerRule = ()=>{
                 {imgAns: '/shop-items/Fals.png', isCorrect: false},
             ],
         },
-        {  
-            questionText: '/power/Q13.png',
-            answerOptions: [
-                {imgAns: '/shop-items/True.png', isCorrect: false},
-                {imgAns: '/shop-items/Fals.png', isCorrect: true},
-            ],
-        },
-        {  
-            questionText: '/power/Q14.png',
-            answerOptions: [
-                {imgAns: '/shop-items/True.png', isCorrect: true},
-                {imgAns: '/shop-items/Fals.png', isCorrect: false},
-            ],
-        },
-        {  
-            questionText: '/power/Q15.png',
-            answerOptions: [
-                {imgAns: '/shop-items/True.png', isCorrect: false},
-                {imgAns: '/shop-items/Fals.png', isCorrect: true},
-            ],
-        },
-        {  
-            questionText: '/power/Q16.png',
-            answerOptions: [
-                {imgAns: '/shop-items/True.png', isCorrect: false},
-                {imgAns: '/shop-items/Fals.png', isCorrect: true},
-            ],
-        },
-        {  
-            questionText: '/power/Q17.png',
-            answerOptions: [
-                {imgAns: '/shop-items/True.png', isCorrect: false},
-                {imgAns: '/shop-items/Fals.png', isCorrect: true},
-            ],
-        },
-        {  
-            questionText: '/power/Q18.png',
-            answerOptions: [
-                {imgAns: '/shop-items/True.png', isCorrect: true},
-                {imgAns: '/shop-items/Fals.png', isCorrect: false},
-            ],
-        },
-        {  
-            questionText: '/power/Q19.png',
-            answerOptions: [
-                {imgAns: '/shop-items/True.png', isCorrect: false},
-                {imgAns: '/shop-items/Fals.png', isCorrect: true},
-            ],
-        },
+        // {  
+        //     questionText: '/power/Q13.png',
+        //     answerOptions: [
+        //         {imgAns: '/shop-items/True.png', isCorrect: false},
+        //         {imgAns: '/shop-items/Fals.png', isCorrect: true},
+        //     ],
+        // },
+        // {  
+        //     questionText: '/power/Q14.png',
+        //     answerOptions: [
+        //         {imgAns: '/shop-items/True.png', isCorrect: true},
+        //         {imgAns: '/shop-items/Fals.png', isCorrect: false},
+        //     ],
+        // },
+        // {  
+        //     questionText: '/power/Q15.png',
+        //     answerOptions: [
+        //         {imgAns: '/shop-items/True.png', isCorrect: false},
+        //         {imgAns: '/shop-items/Fals.png', isCorrect: true},
+        //     ],
+        // },
+        // {  
+        //     questionText: '/power/Q16.png',
+        //     answerOptions: [
+        //         {imgAns: '/shop-items/True.png', isCorrect: false},
+        //         {imgAns: '/shop-items/Fals.png', isCorrect: true},
+        //     ],
+        // },
+        // {  
+        //     questionText: '/power/Q17.png',
+        //     answerOptions: [
+        //         {imgAns: '/shop-items/True.png', isCorrect: false},
+        //         {imgAns: '/shop-items/Fals.png', isCorrect: true},
+        //     ],
+        // },
+        // {  
+        //     questionText: '/power/Q18.png',
+        //     answerOptions: [
+        //         {imgAns: '/shop-items/True.png', isCorrect: true},
+        //         {imgAns: '/shop-items/Fals.png', isCorrect: false},
+        //     ],
+        // },
+        // {  
+        //     questionText: '/power/Q19.png',
+        //     answerOptions: [
+        //         {imgAns: '/shop-items/True.png', isCorrect: false},
+        //         {imgAns: '/shop-items/Fals.png', isCorrect: true},
+        //     ],
+        // },
         {  
             questionText: '/power/Q20.png',
             answerOptions: [

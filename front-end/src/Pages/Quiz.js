@@ -34,7 +34,7 @@ const Quiz = ()=>{
                 <h1 className='pt-5'>Test yourself</h1>
                 <p>Try solving each problem and pass the quizzes</p>
                 <div className='row justify-content-center'>
-                        <div className='col-3 card-wrappers-two'>
+                        <div className='col-sm-6 col-md-3 card-wrappers-two'>
                             <Link to='/quiz/pr'>
                                 <div className="card-text-wrapper">
                                     <h3>{card.title}</h3>
@@ -43,7 +43,7 @@ const Quiz = ()=>{
                                 </div>
                             </Link>
                         </div>
-                    {/* <div className='col-3 card-wrappers-two'>
+                    {/* <div className='col-sm-6 col-md-3 card-wrappers-two'>
                         <Link to='/quiz/lf'>
                             <div className="card-text-wrapper">
                                 <h3>{card2.title}</h3>
@@ -52,7 +52,7 @@ const Quiz = ()=>{
                             </div>
                         </Link>
                     </div> */}
-                    <div className='col-3 card-wrappers-two'>
+                    <div className='col-sm-6 col-md-3 card-wrappers-two'>
                         <Link to='/quiz/lnl'>
                             <div className="card-text-wrapper">
                                 <h3>{card3.title}</h3>
@@ -61,7 +61,7 @@ const Quiz = ()=>{
                             </div>
                         </Link>
                     </div>
-                    <div className='col-3 card-wrappers-two'>
+                    <div className='col-sm-6 col-md-3 card-wrappers-two'>
                         <Link to='/quiz/ief'>
                             <div className="card-text-wrapper">
                                 <h3>{card4.title}</h3>
@@ -73,7 +73,7 @@ const Quiz = ()=>{
                 </div>
                 <div className='row justify-content-center'>
                
-                    <div className='col-3 card-wrappers-two'>
+                    <div className='col-sm-6 col-md-3 card-wrappers-two'>
                         <Link to='/quiz/itf'>
                             <div className="card-text-wrapper">
                                 <h3>{card5.title}</h3>
@@ -82,7 +82,7 @@ const Quiz = ()=>{
                             </div>
                         </Link>
                     </div>
-                    <div className='col-3 card-wrappers-two'>
+                    <div className='col-sm-6 col-md-3 card-wrappers-two'>
                         <Link to='/quiz/iitf'>
                             <div className="card-text-wrapper">
                                 <h3>{card6.title}</h3>

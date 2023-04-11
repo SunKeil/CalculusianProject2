@@ -23,6 +23,9 @@ import Inverse from './Pages/quiz/Inverse';
 import Admin from './Pages/Admin';
 import UserAdmin from './Pages/UserAdmin';
 import Profile from './Pages/Profile'
+import HomePage from './Pages/HomePage';
+import Aboutpage from './Pages/Aboutpage';
+import Games from './Pages/Games';
 function App() {
   const {user}= useUserHooks()
   return (
@@ -32,7 +35,7 @@ function App() {
         <div className='pages'>
           <Routes>
             <Route 
-              path ="/"
+              path ="/forum"
               element ={user ? <Home/> : <Navigate to="/login"/>}
               />
             <Route 
@@ -73,6 +76,10 @@ function App() {
               />
               <Route 
               path ="games"
+              element ={user ?<Games/>: <Navigate to="/"/>}
+              />
+               <Route 
+              path ="/games/matching"
               element ={user ?<Matching/>: <Navigate to="/"/>}
               />
               <Route 
@@ -113,7 +120,15 @@ function App() {
               />
               <Route 
               path ="/profile"
-              element ={user ?<Profile/>: <Navigate to="/"/>}
+              element ={user ?<Profile/>: <Navigate to="/login"/>}
+              />
+              <Route 
+              path ="/"
+              element ={user ?<HomePage/>: <Navigate to="/"/>}
+              />
+              <Route 
+              path ="/about"
+              element ={user ?<Aboutpage/>: <Navigate to="/"/>}
               />
           </Routes>
         </div>
