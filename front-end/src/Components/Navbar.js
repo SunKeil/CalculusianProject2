@@ -18,10 +18,13 @@ const Navbar = () => {
      logout()
     }
   return (
-    <div className='nav'>
-    <div className="container">
-        <div className="nav-wrapper row align-items-center justify-content-between">
-            <div className="nav-item-wrapper col-3 ">
+
+
+
+<div className='nav'>
+     <div className="container">
+        <div className="nav-wrapper row align-items-center justify-content-between  ">
+            <div className="nav-item-wrapper col-sm-4 col-md-3 ">
                 <Link to='/'>
                     <div className='navbar-brand '>
                         <img src={logo} alt='logo'></img>
@@ -29,23 +32,23 @@ const Navbar = () => {
                 </Link>
             </div>
            {user && (
-                <div className="nav-item-wrapper col-3">
-                    <ul>
+                <div className="nav-item-wrapper col-sm-4 col-md-3">
+                    <ul className='nav-li'>
                         <Link to='/'>Home</Link>
                         <Link to='/about'>About</Link>
                         <Link to='/forum'>Forum</Link>
                         <Link to='courses'>Courses</Link>
                         <Link to='quiz'>Quiz</Link>
                         <Link to='games'>Games</Link> 
-                        {/* <Link to='admin'><li className='admin-link'>Admin</li></Link>  */}
-                    </ul>
+                         {/* <Link to='admin'><li className='admin-link'>Admin</li></Link>  */}
+                   </ul>
                 </div>
                 )} 
-            <div className="nav-item-wrapper col-3">
+            <div className="nav-item-wrapper col-sm-4 col-md-3 ">
                 <div className='row'>
                    {user && (
-                        <div className="nav-profile col row align-items-center">
-                            <div className='col userprofile-nav'>
+                        <div className="nav-profile col row align-items-center d-sm-none d-md-block">
+                            <div className='col userprofile-nav '>
                                 <img src={userProfile} alt="profile"/>
                                     <Link to="profile">
                                         <p>{user.email}</p>
@@ -57,8 +60,9 @@ const Navbar = () => {
                 </div>
             </div>
         </div>
-    </div>
-    </div>
+  </div>
+  </div>
+ 
   )
 }
 

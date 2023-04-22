@@ -40,83 +40,83 @@ function App() {
               />
             <Route 
               path ="/login"
-              element ={!user ? <Login/> : <Navigate to="/login"/>}
+              element ={!user ? <Login/> : <Navigate to="/"/>}
               />
             <Route 
               path ="/sign-up"
-              element ={!user ?<Signup/> : <Navigate to="/login"/>}
+              element ={!user ?<Signup/> : <Navigate to="/"/>}
               />
               <Route 
               path ="courses"
-              element ={user ?<Courses/>: <Navigate to="/login"/>}
+              element ={user ?<Courses/>: <Navigate to="/"/>}
               />
               <Route 
               path ="courses/limits"
-              element ={user ?<Limits/>: <Navigate to="/login"/>}
+              element ={user ?<Limits/>: <Navigate to="/"/>}
               />
               <Route 
               path ="courses/ifl"
-              element ={user ?<IFL/>: <Navigate to="/login"/>}
+              element ={user ?<IFL/>: <Navigate to="/"/>}
               />
               <Route 
               path ="courses/ilnl"
-              element ={user ?<ILNL/>: <Navigate to="/login"/>}
+              element ={user ?<ILNL/>: <Navigate to="/"/>}
               />
               <Route 
               path ="courses/ief"
-              element ={user ?<IEF/>: <Navigate to="/login"/>}
+              element ={user ?<IEF/>: <Navigate to="/"/>}
               />
               <Route 
               path ="courses/itf"
-              element ={user ?<ITF/>: <Navigate to="/login"/>}
+              element ={user ?<ITF/>: <Navigate to="/"/>}
               />
               <Route 
               path ="courses/iitf"
-              element ={user ?<IITF/>: <Navigate to="/login"/>}
+              element ={user ?<IITF/>: <Navigate to="/"/>}
               />
               <Route 
               path ="games"
-              element ={user ?<Games/>: <Navigate to="/login"/>}
+              element ={user ?<Games/>: <Navigate to="/"/>}
               />
                <Route 
               path ="/games/matching"
-              element ={user ?<Matching/>: <Navigate to="/login"/>}
+              element ={user ?<Matching/>: <Navigate to="/"/>}
               />
               <Route 
               path ="quiz"
-              element ={user ?<Quiz/>: <Navigate to="/login"/>}
+              element ={user ?<Quiz/>: <Navigate to="/"/>}
               />
               <Route 
               path ="/quiz/pr"
-              element ={user ?<PowerRule/>: <Navigate to="/login"/>}
+              element ={user ?<PowerRule/>: <Navigate to="/"/>}
               />
               <Route 
               path ="/quiz/lf"
-              element ={user ?<LogFunction/>: <Navigate to="/login"/>}
+              element ={user ?<LogFunction/>: <Navigate to="/"/>}
               />
               <Route 
               path ="/quiz/lnl"
-              element ={user ?<LeadNatural/>: <Navigate to="/login"/>}
+              element ={user ?<LeadNatural/>: <Navigate to="/"/>}
               />
               <Route 
               path ="/quiz/ief"
-              element ={user ?<ExponentialFuncs/>: <Navigate to="/login"/>}
+              element ={user ?<ExponentialFuncs/>: <Navigate to="/"/>}
               />
               <Route 
               path ="/quiz/itf"
-              element ={user ?<TrigoFunctions/>: <Navigate to="/login"/>}
+              element ={user ?<TrigoFunctions/>: <Navigate to="/"/>}
               />
               <Route 
               path ="/quiz/iitf"
-              element ={user ?<Inverse/>: <Navigate to="/login"/>}
+              element ={user ?<Inverse/>: <Navigate to="/"/>}
               />
               <Route 
               path ="/admin"
-              element ={user ?<Admin/>: <Navigate to="/login"/>}
+              element ={user ?<Admin/>: <Navigate to="/"/>}
               />
               <Route 
               path ="/admin/users"
-              element ={user ?<UserAdmin/>: <Navigate to="/login"/>}
+              element ={user ?<UserAdmin/>: <Navigate to="/"/>}
               />
               <Route 
               path ="/profile"
@@ -124,11 +124,11 @@ function App() {
               />
               <Route 
               path ="/"
-              element ={user ?<HomePage/>: <Navigate to="/login"/>}
+              element ={user ?<HomePage/>: <Navigate to="/"/>}
               />
               <Route 
               path ="/about"
-              element ={user ?<Aboutpage/>: <Navigate to="/login"/>}
+              element ={user ?<Aboutpage/>: <Navigate to="/"/>}
               />
           </Routes>
         </div>

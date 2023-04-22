@@ -34,9 +34,7 @@ a {
     transform-origin: left;
     transform: scaleX(1);
   }
-  a{
-    margin: 5px;
-  }
+  
  
   
 .nav{
@@ -599,7 +597,27 @@ h5{
     color: #7B61FF;
 
 }
+
 .about-p{
     font-size: large;
     line-height: 30px;
+}
+.nav-li{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.navnav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+    
+}
+.nav{
+    border-bottom: 1px solid #7B61FF ;
+    padding: 5px;
+    
 }
