@@ -12,7 +12,7 @@ const router = express.Router()
 router.use(requireAuth)
 
 
-// get all forumss
+// get all forumsss
 router.get('/',getForum)
 //get singel forums
 router.get('/:id', getSingleForum)
