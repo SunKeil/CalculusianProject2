@@ -497,7 +497,7 @@ textarea:focus{
     display: flex;
 }
 .card-home{
-    width: 280px;
+    width: auto;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -607,7 +607,11 @@ h5{
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+   
 
+}
+.nav-item-wrapper{
+    width: 350px;
 }
 .navnav{
     display: flex;
@@ -620,4 +624,7 @@ h5{
     border-bottom: 1px solid #7B61FF ;
     padding: 5px;
     
+}
+.space-li{
+    margin-left: 5px ;
 }

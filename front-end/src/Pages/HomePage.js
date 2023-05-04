@@ -1,8 +1,16 @@
 import React from 'react'
 import matlab from '../Components/images/matlab.png'
 import {Link} from 'react-router-dom'
+import Carousel from 'react-bootstrap/Carousel';
+import { useState } from 'react';
+
 
 function HomePage() {
+
+    const [index, setIndex] = useState(0);
+    const handleSelect = (selectedIndex, e) => {
+    setIndex(selectedIndex);
+  };
   return (
     <div className='container '>
         <div className='home-wrapper row align-items-center mt-2 home'>
@@ -23,35 +31,45 @@ function HomePage() {
             </div>
         </div>
         <div className='what-is mb-5'>
-            <h3 className='home-card-head'>What's inside of Calculusian?</h3>
+            <h2 className='home-card-head'>What's inside of Calculusian?</h2>
             <p>Calculusian have pages that can be use by the user to communicate and learn.</p>
-            <div className='home-contents row mt-3'>
-                <div className='card-home col-6'>
-                    <h4 className='home-card-head'>Forum page </h4>
-                    <p>It is a page where users can interact, share information and questions 
+            <Carousel activeIndex={index} onSelect={handleSelect}>
+      <Carousel.Item>
+        <div className='card-home text-center '>
+                    <h2 className='home-card-head'>Forum page </h2>
+                    <h5>It is a page where users can interact, share information and questions 
                         that in line 
-                        to mathematics it is not only limited to integral calculus.</p>
+                        to mathematics it is not only limited to integral calculus.</h5>
                     <button className='home-btn'><Link to='/forum' className='color-text'>Learn more</Link></button>
                 </div>
-                <div className='card-home col-6'>
-                    <h4 className='home-card-head'>Course page</h4>
-                    <p>- It contains topics about integral calculus that the Bulacan State University, 
-                        College of Science focuses in teaching.</p>
+      </Carousel.Item>
+      <Carousel.Item>
+      <div className='card-home text-center'>
+                    <h2 className='home-card-head'>Course page</h2>
+                    <h5>It contains topics about integral calculus that the Bulacan State University, 
+                        College of Science focuses in teaching.</h5>
                     <button className='home-btn'><Link to='/courses' className='color-text'>Learn more</Link></button>
                 </div>
-                <div className='card-home col-6'>
-                    <h4 className='home-card-head'>Quiz page </h4>
-                    <p>This is where the users challenge their learnings about the topics.</p>
+       
+      </Carousel.Item>
+      <Carousel.Item>
+      <div className='card-home text-center'>
+                    <h2 className='home-card-head'>Quiz page </h2>
+                    <h5>This is where the users challenge their learnings about the topics.</h5>
                     <button className='home-btn'><Link to='/quiz' className='color-text'>Learn more</Link></button>
                 </div>
-                <div className='card-home col-6'>
-                    <h4 className='home-card-head'>Game page </h4>
-                    <p>You will know that you can have fun while learning integral calculus.</p>
+      </Carousel.Item>
+      <Carousel.Item>
+      <div className='card-home text-center'>
+                    <h2 className='home-card-head'>Game page </h2>
+                    <h5>You will know that you can have fun while learning integral calculus.</h5>
                     <button className='home-btn'><Link to='/games' className='color-text'>Learn more</Link></button>
                 </div>
-            </div>
+      </Carousel.Item>
+        </Carousel>
 
         </div>
+        
         
     </div>
   )

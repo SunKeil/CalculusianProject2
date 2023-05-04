@@ -48,7 +48,7 @@ const Signup = ()=>{
             {error && <div className='error'>{error}</div>}
             {!user && (
                 <div className="create mt-3">
-                   <span>Already have accout:</span> <Link to='/login'>Login</Link>
+                   <span>Already have account:</span> <Link to='/login'>Login</Link>
                 </div>
             )}
            

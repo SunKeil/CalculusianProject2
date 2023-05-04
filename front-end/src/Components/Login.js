@@ -36,7 +36,7 @@ const Login = ()=>{
             {error && <div className='error'>{error}</div>}
             {!user && (
                 <div className="create mt-3">
-                   <span>Create Accout:</span> <Link to='/sign-up'>Sign Up</Link>
+                   <span>Create Account:</span> <Link to='/sign-up'>Sign Up</Link>
                 </div>
             )}
         </form>

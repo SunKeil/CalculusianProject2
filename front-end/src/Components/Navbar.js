@@ -34,12 +34,12 @@ const Navbar = () => {
            {user && (
                 <div className="nav-item-wrapper col-sm-4 col-md-3">
                     <ul className='nav-li'>
-                        <Link to='/'>Home</Link>
-                        <Link to='/about'>About</Link>
-                        <Link to='/forum'>Forum</Link>
-                        <Link to='courses'>Courses</Link>
-                        <Link to='quiz'>Quiz</Link>
-                        <Link to='games'>Games</Link> 
+                        <Link to='/' className='space-li'>Home</Link>
+                        <Link to='/about' className='space-li'>About</Link>
+                        <Link to='/forum' className='space-li'>Forum</Link>
+                        <Link to='courses'  className='space-li'>Courses</Link>
+                        <Link to='quiz' className='space-li'>Quiz</Link>
+                        <Link to='games' className='space-li'>Games</Link> 
                          {/* <Link to='admin'><li className='admin-link'>Admin</li></Link>  */}
                    </ul>
                 </div>

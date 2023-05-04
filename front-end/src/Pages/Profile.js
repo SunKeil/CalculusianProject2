@@ -12,7 +12,7 @@ function Profile() {
     // const details = details.details
     // console.log(details.details)
     const [name, setName]=useState('')
-    // const [lrn, setLRN]=useState('')
+    const [lrn, setLRN]=useState('')
     const [section, setSection]=useState('')
     const [descr, setDescr]=useState('')
     const [pending, setPending] =useState(false)
@@ -50,21 +50,21 @@ function Profile() {
         <div className='row mt-5'>
             <div className='col-4'>
             <form onSubmit={handleSubmit} className='profile-inputs'>
-            <label>Student-Name:</label>
+            <label>Name:</label>
             <input 
             type='text'
             required
             value={name}
             onChange={(e)=>setName(e.target.value)}
             />
-            {/* <label>Student-LRN:</label>
+            <label>Student-Number:</label>
             <input 
             type='text'
             required
             value={lrn}
             onChange={(e)=>setLRN(e.target.value)}
-            /> */}
-            <label>Student-Section:</label>
+            />
+            <label>Course:</label>
             <input 
             type='text'
             required
